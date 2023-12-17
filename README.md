@@ -21,7 +21,7 @@ Welcome to the repository for my personal portfolio. This project encapsulates m
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:
+git clone git@github.com:itsmaik/PORTFOLIO-MAIK.git
 ```
 
 2. Install the dependencies:
@@ -40,7 +40,7 @@ npm run start
 
 Check it live on the browser using Netlify:
 
-[Portfolio]()
+[Portfolio](https://superlative-puppy-b8a481.netlify.app/)
 
 ## Contact
 
