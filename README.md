@@ -1,4 +1,4 @@
-# Science Museum
+# Portfolio
 
 ![image](/Images/read-me-img-portfolio.png)
 
