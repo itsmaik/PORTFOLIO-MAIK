@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+:root {
+  font-size: 16px;
+
+  --blue: #004DA2;
+  --dark-blue: #17232B;
+  --black: #1B1B1B;
+  --white: #FFF;
+  --dark-gray: #272727;
+  --dark-gray2: #202020;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+img, button, h1, h2, h3, h4, h5, input {
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, a, button, h1, h2, h3, label {
+  color: #FFF;
+}
+
+button {
+  appearance: none;
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.pv-10 {
+  padding: 10px 0;
+}
+
+.section-main-title {
+  font-size: 3.875rem;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    font-size: 14px;
+  }
+}

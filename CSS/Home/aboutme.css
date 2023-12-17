@@ -1,0 +1,127 @@
+#about {
+  padding: 80px 54px;
+  background-color: var(--black);
+}
+
+.section-title {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 180%;
+  border-right: 1px solid rgba(255, 255, 255, 0.20);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+  padding: 5px 0;
+  margin-bottom: 60px;
+}
+
+.section-content--about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.talk-to-me--about {
+  display: block;
+  width: fit-content;
+}
+
+.section-about--left .talk-to-me--about button {
+  padding: 15px 40px;
+  border: 1px solid var(--blue);
+  background: var(--blue);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 1.28px;
+}
+
+.section-about--left p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 180%;
+  margin-bottom: 40px;
+}
+
+.section-main-title {
+  margin-bottom: 20px;
+}
+
+.section-about--left,
+.section-about--right {
+  width: calc(50% - 30px);
+}
+
+.progress-bar .progress-title {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.progress-title .tech-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 180%;
+}
+
+.progress-title .percentage {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.progress-bar .progress {
+  width: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.20);
+
+}
+
+.progress-bar .progress div {
+  background-color: var(--blue);
+  height: 10px;
+}
+
+.progress-80 {
+  width: 80%;
+}
+
+.progress-75 {
+  width: 75%;
+}
+
+.progress-60 {
+  width: 60%;
+}
+
+.progress-50 {
+  width: 5%;
+}
+
+.progress-40 {
+  width: 20%;
+}
+
+.progress-15 {
+  width: 15%;
+}
+
+
+@media (min-width: 0px) and (max-width: 1180px) {
+  .section-about--left {
+    width: 100%;
+  }
+
+  .section-about--right {
+    width: 100%;
+  }
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  #about {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

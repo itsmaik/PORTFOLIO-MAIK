@@ -1,0 +1,65 @@
+.main-banner {
+  padding-top: 20px;
+  background-image: url('/Images/banner-2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: top;
+
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.main-banner--content {
+  max-width: 800px;
+}
+
+.main-banner--content h1 {
+  font-size: 5.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+.banner--text {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  margin-bottom: 30px;
+}
+
+.talk-to-me-banner {
+  width: fit-content;
+}
+
+.talk-to-me-banner button {
+  padding: 15px 40px;
+  border: 1px solid var(--blue);
+  background-color: transparent;
+
+  color: #FFF;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 1.28px;
+}
+
+.personal-image img {
+  display: block;
+}
+ 
+@media (min-width: 0px) and (max-width: 1080px) {
+  .personal-image {
+    display: none;
+  }
+
+  .main-banner {
+    justify-content: center;
+    align-items: center;
+    padding: 40px 16px;
+  }
+}
