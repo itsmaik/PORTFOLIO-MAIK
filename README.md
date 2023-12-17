@@ -1,6 +1,6 @@
 # Science Museum
 
-![image](/images/read-me-img-portfolio.png)
+![image](/Images/read-me-img-portfolio.png)
 
 Welcome to my portfolio.
 
