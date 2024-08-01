@@ -133,6 +133,12 @@
   letter-spacing: 1.28px;
 }
 
+.disabled-form input,
+.disabled-form textarea {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
 @media (min-width: 0px) and (max-width: 1220px) {
   #contact .wrapper {
     flex-direction: column;
