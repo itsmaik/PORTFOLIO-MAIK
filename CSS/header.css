@@ -47,7 +47,7 @@ header nav a {
 .social-media {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .social-media.mobile {
