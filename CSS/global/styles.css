@@ -1,3 +1,10 @@
+@import url('/CSS/Home/aboutme.css');
+@import url('/CSS/Home/contactme.css');
+@import url('/CSS/Home/banner.css');
+@import url('/CSS/Home/projects.css');
+@import url('/CSS/footer.css');
+@import url('/CSS/header.css');
+
 html {
   scroll-behavior: smooth;
 }
