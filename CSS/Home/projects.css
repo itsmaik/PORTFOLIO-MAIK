@@ -25,7 +25,7 @@
 }
 
 .project-card--content .links {
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 
 .project-card--content .links a {
@@ -38,7 +38,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: 180%;
+  line-height: 140%;
 }
 
 .project-description {
