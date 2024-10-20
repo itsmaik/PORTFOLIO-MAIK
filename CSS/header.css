@@ -1,6 +1,5 @@
 header {
   background-color: var(--black);
-  padding-left: 30px;
   height: 70px;
 }
 
@@ -10,17 +9,15 @@ header .wrapper {
   justify-content: space-between;
 }
 
-.logo img {
-  display: block;
-  width: 100%;
-  max-width: 276px;
-  height: auto;
-}
-
 header nav {
   display: flex;
   align-items: center;
   gap: 60px;
+  height: 100%;
+  height: 70px;
+  background-color: var(--blue);
+  padding-right: 60px;
+  padding-left: 60px;
 }
 
 header nav a {
@@ -30,10 +27,13 @@ header nav a {
   letter-spacing: 1.28px;
 }
 
+
 .main-navigation.mobile {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  padding: 0;
+  background-color: var(--black);
 }
 
 .header-actions {
