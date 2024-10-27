@@ -14,7 +14,7 @@
 }
 
 .projects-content .project-card {
-  width: calc(33.3% - 20px);
+  width: calc(50% - 20px);
   display: flex;
 }
 
