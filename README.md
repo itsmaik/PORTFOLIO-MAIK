@@ -40,7 +40,7 @@ npm run start
 
 Check it live on the browser using Netlify:
 
-[Portfolio](https://superlative-puppy-b8a481.netlify.app/)
+[Portfolio](https://itsmemaik-portfolio.netlify.app)
 
 ## Contact
 
