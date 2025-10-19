@@ -14,7 +14,7 @@ header nav {
   align-items: center;
   gap: 60px;
   height: 70px;
-  background: linear-gradient(90deg, #004DA2, #1B1B1B);
+  background: linear-gradient(90deg, #004da2, #1b1b1b);
   padding-right: 80px;
   padding-left: 55px;
 }
@@ -25,7 +25,6 @@ header nav a {
   line-height: 120%;
   letter-spacing: 1.28px;
 }
-
 
 .main-navigation.mobile {
   display: flex;
@@ -72,7 +71,7 @@ header nav a {
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  background: linear-gradient(90deg, #1B1B1B, #004DA2);
+  background: linear-gradient(90deg, #1b1b1b, #004da2);
 
   color: #fff;
   font-size: 1rem;
@@ -159,7 +158,12 @@ header nav a {
 
 @media screen and (max-width: 1080px) {
   header {
-    padding: 10px 30px;
+    padding: 10px 16px;
+  }
+
+  .header .wrapper,
+  header .wrapper {
+    justify-content: flex-end;
   }
 
   .logo img {
