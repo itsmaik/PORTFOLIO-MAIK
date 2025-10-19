@@ -7,8 +7,8 @@
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 180%;
-  border-right: 2px solid rgba(255, 255, 255, 0.20);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.20);
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   padding: 5px 0;
   margin-bottom: 60px;
 }
@@ -34,13 +34,14 @@
   font-weight: 600;
   line-height: 120%;
   letter-spacing: 1.28px;
+  margin-top: 30px;
 }
 
 .section-about--left p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 180%;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .section-main-title {
@@ -75,8 +76,7 @@
   width: 100%;
   padding-bottom: 5px;
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.20);
-
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .progress-bar .progress div {
@@ -107,7 +107,6 @@
 .progress-15 {
   width: 15%;
 }
-
 
 @media (min-width: 0px) and (max-width: 1180px) {
   .section-about--left {
