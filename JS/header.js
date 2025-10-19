@@ -1,7 +1,7 @@
-var menuToggleOpen = document.querySelector(".header-mobile-toggle.open");
-var menuToggleClose = document.querySelector(".header-mobile-toggle.close");
+let menuToggleOpen = document.querySelector(".header-mobile-toggle.open");
+let menuToggleClose = document.querySelector(".header-mobile-toggle.close");
 
-var menuWrapper = document.querySelector(".header-mobile-wrapper");
+let menuWrapper = document.querySelector(".header-mobile-wrapper");
 
 function openMenu() {
   menuWrapper.style.display = "flex";

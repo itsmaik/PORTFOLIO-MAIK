@@ -27,7 +27,7 @@
   margin-top: 10px;
   font-size: 2.125rem;
   font-weight: 800;
-  line-height: 120%; 
+  line-height: 120%;
   margin-bottom: 30px;
 }
 
@@ -38,11 +38,11 @@
 }
 
 .section-contact--right form input {
-  color: #FFF;
+  color: #fff;
   height: 50px;
   padding-right: 15px;
   background-color: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.50);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -50,21 +50,21 @@
 }
 
 .section-contact--right form input::placeholder {
-  color: #FFF;
+  color: #fff;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 180%;
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 
 #message {
-  color: #FFF;
+  color: #fff;
   resize: none;
   height: 120px;
   height: 120px;
   padding-right: 15px;
-  border: 2px solid rgba(255, 255, 255, 0.50);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   background-color: transparent;
   outline: none;
   font-size: 1rem;
@@ -73,18 +73,22 @@
 }
 
 #message::placeholder {
-  color: #FFF;
+  color: #fff;
   font-size: 1rem;
   font-weight: 400;
   line-height: 180%;
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 
-#firstName, #lastName, #subject, #email {
+#firstName,
+#lastName,
+#subject,
+#email {
   width: calc(50% - 5px);
 }
 
-#firstName, #subject {
+#firstName,
+#subject {
   margin-right: 10px;
 }
 
@@ -100,13 +104,13 @@
   gap: 30px;
 }
 
-#subscribe {
+/* #subscribe {
   height: fit-content;
   margin-right: 7px;
   cursor: pointer;
-}
+} */
 
-.checkbox {
+/* .checkbox {
   display: flex;
   align-items: center;
 }
@@ -117,14 +121,14 @@
   font-weight: 400;
   line-height: 180%; 
   cursor: pointer;
-}
+} */
 
 .form-footer button {
   padding: 15px 40px;
   border: 1px solid var(--blue);
   background: var(--blue);
 
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 1rem;
   font-weight: 600;
@@ -132,17 +136,21 @@
   letter-spacing: 1.28px;
 }
 
-.disabled-form input,
+input,
+textarea {
+  padding-left: 0.75rem;
+}
+/* .disabled-form input,
 .disabled-form textarea {
   background-color: #f0f0f0;
   cursor: not-allowed;
-}
+} */
 
 @media (min-width: 0px) and (max-width: 1220px) {
   #contact .wrapper {
     flex-direction: column;
   }
-  
+
   .section-contact--left {
     width: 100%;
   }
@@ -162,7 +170,7 @@
 
 @media (min-width: 0px) and (max-width: 840px) {
   .form-footer button {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -175,7 +183,7 @@
   .checkbox {
     max-width: 100%;
   }
-  
+
   #contact {
     padding-left: 16px;
     padding-right: 16px;

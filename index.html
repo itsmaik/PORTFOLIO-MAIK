@@ -16,9 +16,7 @@
       rel="stylesheet"
     />
 
-    <!-- <script defer src="/JS/carousel.js"></script> -->
-    <script defer src="/JS/script.js"></script>
-    <script defer src="/JS/header.js"></script>
+    <script type="module" src="/JS/script.js"></script>
   </head>
 
   <body>
@@ -394,7 +392,18 @@
           <div class="section-contact--right">
             <p class="form-title">Send a message</p>
 
-            <form class="disabled-form" action="#" method="post">
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              netlify-honeypot="bot-field"
+            >
+              <input type="hidden" name="form-name" value="contact" />
+
+              <p hidden>
+                <label>Don’t fill this out: <input name="bot-field" /></label>
+              </p>
+
               <input
                 placeholder="First name"
                 type="text"
@@ -428,7 +437,7 @@
               /><br />
 
               <textarea
-                maxlength="200"
+                maxlength="1000"
                 placeholder="message"
                 id="message"
                 name="message"
@@ -437,13 +446,13 @@
               ><br />
 
               <div class="form-footer">
-                <div class="checkbox">
+                <!-- <div class="checkbox">
                   <input type="checkbox" id="subscribe" name="subscribe" />
                   <label for="subscribe"
                     >By sending this message I confirm that I have read and
                     agree with the Privacy Policy</label
                   >
-                </div>
+                </div> -->
 
                 <button type="submit">Send Message</button>
               </div>
